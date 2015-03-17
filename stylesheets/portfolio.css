@@ -125,9 +125,23 @@ hr {
   .large_text{ font-size: 2.8em;}
 }
 
-@media(max-width: 700px) {
+@media(max-width: 1000px) {
   #left-sidebar{visibility: hidden;}
   body{padding: 0 0 0 0;}
+}
+
+@media(max-width: 730px){
+  .project_pic {
+    float: none;
+    width: 100%;
+  }
+
+  .descrip_text{
+    float: none;
+    width: 100%;
+  }
+
+
 }
 
 #landing_div{
