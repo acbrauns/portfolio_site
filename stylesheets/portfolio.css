@@ -2,9 +2,7 @@ body{
   margin:0;
   padding:0 0 0 270px;
   font-family: 'Muli', sans-serif;
-  /*font-family: 'Roboto Condensed', sans-serif;*/
   font-weight: 300;
-  /*font-weight: 400;*/
   line-height: 1.5;
   background-color: #F2f2f2;
   color: #323232;
@@ -32,7 +30,7 @@ body{
   overflow:auto;
  }
 
-/*.landing_div{position: fixed;}*/
+
 /*atomic experiment, apparently */
 .heading_font{ font-family: 'Amatic SC', cursive;}
 .centered { text-align: center;}
@@ -59,23 +57,33 @@ body{
 .width_medium {width: 75%;}
 
 .small_text {font-size: 1.1em;}
-.content {margin: 0 auto;}
+.mar_zero_auto {margin: 0 auto;}
 
 .large_break {height: 2em;}
 .med_break{height: 0.25em;}
-.small_break {height: 2px;}
 .small_break {height: 0.2em;}
-/*.extra_small_break {height: 1px;}*/
 .extra_small_break {height: 0.1em;}
 
 .margin_top_fifty {margin-top: 50px;}
 .margin_bottom_fifty {margin-bottom: 50px;}
+.margin_bottom_thirty {margin-bottom: 30px;}
 .margin_bottom_zero {margin-bottom: 0px;}
-.padding_top_100 {padding-top: 100px;}
+.mar-left-10 {margin-left: 10px}
+.mar_right_10 {margin-right: 10px;}
+.mar_top_15 {margin-top: 15px;}
+.pad_top_100 {padding-top: 100px;}
+.pad_top_1 {padding-top: 1em;}
+.pad_bot_1 {padding-bottom: 1em;}
 .float_left{float: left;}
-.width_left_text {width: 46%;}
 
-/*.nav_div {position: relative; overflow-y: scroll;}*/
+.width_left_text {width: 46%;}
+.width_48 {width: 48%;}
+.width_fifty {width: 50%;}
+.width_100 {width: 100%;}
+
+.inline_block {display: inline-block;}
+.opac_half {opacity: 0.5}
+
 .nav_div a:hover{color: #4F6228;}
 .andrea_pic {height: 125px;}
 
@@ -93,9 +101,7 @@ body{
   overflow: auto;
 }
 
-.mar-left-10 {margin-left: 10px}
 div.container {
-  /*border: 1px solid #000000;*/
   overflow: auto;
   width: 100%
 }
@@ -130,3 +136,13 @@ hr {
   min-height: 800px;
 }
 
+a{
+  text-decoration: none;
+  color: #323232;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  background-color: #BFBFBF;
+  font-size: 0.8em;
+}
