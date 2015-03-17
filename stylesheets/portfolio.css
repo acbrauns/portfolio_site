@@ -68,9 +68,9 @@ body{
 .margin_bottom_fifty {margin-bottom: 50px;}
 .margin_bottom_thirty {margin-bottom: 30px;}
 .margin_bottom_zero {margin-bottom: 0px;}
-.mar-left-10 {margin-left: 10px}
 .mar_right_10 {margin-right: 10px;}
 .mar_top_15 {margin-top: 15px;}
+.pad_left_10 {padding-left: 10px;}
 .pad_top_100 {padding-top: 100px;}
 .pad_top_1 {padding-top: 1em;}
 .pad_bot_1 {padding-bottom: 1em;}
@@ -95,11 +95,11 @@ body{
   margin-top: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 5px;
   border-radius: 3px;
   float: right;
   overflow: auto;
 }
+.mar_left_10 {margin-left: 10px}
 
 div.container {
   overflow: auto;
