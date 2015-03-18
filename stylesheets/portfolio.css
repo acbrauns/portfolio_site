@@ -64,6 +64,7 @@ body{
 .small_break {height: 0.2em;}
 .extra_small_break {height: 0.1em;}
 
+.mar_zero {margin: 0;}
 .margin_top_fifty {margin-top: 50px;}
 .margin_bottom_fifty {margin-bottom: 50px;}
 .margin_bottom_thirty {margin-bottom: 30px;}
@@ -160,3 +161,9 @@ footer {
   background-color: #BFBFBF;
   font-size: 0.8em;
 }
+
+table{
+  margin: 0;
+  overflow: hidden;
+}
+
