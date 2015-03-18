@@ -41,6 +41,10 @@ $(window).on('load', function() {
 
 });
 
-
-
+$('.footer_text').hover(function(){
+    original = this.innerHTML;
+    this.innerHTML = "AJAX for WHAT??";
+},function(){
+    this.innerHTML = original;
+});
 
