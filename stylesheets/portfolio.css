@@ -116,37 +116,29 @@ hr {
 }
 
 
+
+@media(max-width: 800px) {
+  .huge_text{ font-size: 4em;}
+  .large_text{ font-size: 2.8em;}
+  #left-sidebar{visibility: hidden;}
+  body{padding: 0 0 0 0;}
+
+}
+
 @media(max-width: 900px) {
   .huge_text{ font-size: 5em;}
   .large_text{ font-size: 3.5em;}
 }
 
-@media(max-width: 800px) {
-  .huge_text{ font-size: 4em;}
-  .large_text{ font-size: 2.8em;}
-}
-
-@media(max-width: 800px) {
-  #left-sidebar{visibility: hidden;}
-  body{padding: 0 0 0 0;}
-}
-
 @media(max-width: 1050px){
-  .project_pic {
+  .project_pic, .descrip_text {
     float: none;
     width: 100%;
   }
-
-  .descrip_text{
-    float: none;
-    width: 100%;
-  }
-
-
 }
 
 #landing_div{
-  background-image: url("http://subtlepatterns.com/patterns/white_wall.png");
+  background-image: url("../images/bg_paper.png");
   height: 100vh;
   min-height: 800px;
 }
