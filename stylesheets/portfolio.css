@@ -131,7 +131,7 @@ hr {
   body{padding: 0 0 0 0;}
 }
 
-@media(max-width: 800px){
+@media(max-width: 1050px){
   .project_pic {
     float: none;
     width: 100%;
@@ -162,15 +162,6 @@ footer{
   font-size: 0.8em;
 }
 
-table td {
-  margin: 0;
-  overflow: hidden;
-  /*border: 1px solid black;*/
-  text-align: left;
-}
 
-.inline {
-  display: inline;
-}
 
 
