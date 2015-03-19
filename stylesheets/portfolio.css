@@ -107,7 +107,7 @@ div.container {
   width: 100%
 }
 
-.narrow{width: 25%;}
+.narrow{width: 48%;}
 
 hr {
   margin-top: 0;
@@ -157,17 +157,20 @@ a{
   font-family: 'Open Sans', sans-serif;
 }
 
-footer {
+footer{
   background-color: #BFBFBF;
   font-size: 0.8em;
 }
 
-table{
+table td {
   margin: 0;
   overflow: hidden;
+  /*border: 1px solid black;*/
+  text-align: left;
 }
 
 .inline {
   display: inline;
 }
+
 
