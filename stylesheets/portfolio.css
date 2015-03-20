@@ -32,6 +32,8 @@ body{
 
 
 /*atomic experiment, apparently */
+.main_font {font-family: 'Muli', sans-serif;}
+.link_font {font-family: 'Open Sans', sans-serif;}
 .heading_font{ font-family: 'Amatic SC', cursive;}
 .centered { text-align: center;}
 .white {color: #D4D6D8;}
@@ -148,6 +150,7 @@ a{
   color: #323232;
   font-family: 'Open Sans', sans-serif;
 }
+
 
 footer{
   background-color: #BFBFBF;
