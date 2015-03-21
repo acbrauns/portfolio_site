@@ -158,6 +158,7 @@ footer{
   font-size: 0.8em;
 }
 
+.repo td > * {margin: 0;}
 
 
 
