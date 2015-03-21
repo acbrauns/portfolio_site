@@ -7,6 +7,7 @@ body{
   background-color: #F2f2f2;
   color: #323232;
   text-align: justify;
+  visibility: hidden;
  }
  div#left-sidebar{
   position:absolute;

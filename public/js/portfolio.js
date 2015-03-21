@@ -21,7 +21,9 @@ $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
 
+
 $(window).on('load', function() {
+  $('body').css('visibility', 'visible');
 
   winHeight = $(window).height();
 
@@ -32,14 +34,13 @@ $(window).on('load', function() {
 
     $('.title_div').css('padding-top', mainExtra/2 );
     $('.nav_div').css('padding-top', sidebarExtra/2);
-
-}
+  }
     $('.transparent').css("opacity","1");
     $('.red').fadeIn(2000);
     $('.blue').fadeIn(4000);
     $('.green').fadeIn(6000);
-
 });
+
 
 $('.footer_text').hover(function(){
     original = this.innerHTML;
