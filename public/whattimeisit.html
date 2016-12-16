@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What time is it?</title>
+    <meta name="viewport" content="width=device-width" />
+     <link rel="icon" href="http://www.acbraunstein.com/images/favicon_16.ico?v=2"  type="image/x-icon"/>
+     <link rel="shortcut icon" href="http://www.acbraunstein.com/images/favicon_16.ico?v=2"  type="image/x-icon"/>
+     <link rel="stylesheet" type="text/css" href="css/whattimeisit.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,800" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <div class="start-text">
+      <h1 style="font-weight: 400; font-size: 30pt">What time is it????</h1>
+      <h3 style="font-weight: 300">Click JK's face to find out.</h3>
+    </div>
+    <div class="head-container">
+      <div class="img-wrap">
+        <img src="images/jk-head.png" id="btn2">
+       </div>
+    </div>
+    <div class="end-text" style="visibility: hidden">
+      <h2 class="choc-text">Chocolate O'Clock!</h2>
+    </div>
+    <audio id='suara1' src='choc2.mp3'></audio>
+
+
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" style="display: none">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+                 </div>
+        <div class="modal-body" style="text-align: center">
+          <h2 class="modal-text">Behold, instructions:<br>Please set window to <b>full screen</b><br> and turn <b>volume</b> on. :)</h2>
+          <button id="gotit">Yes, I understand this haiku</button>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+      <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="js/whattimeisit.js"></script>
+  </body>
+</html>
